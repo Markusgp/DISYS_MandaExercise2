@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "github.itu.dk/stwa/dissysmanda2ry;dissysmanda2ry";
+
+package ring;
+
+service Ring {
+    rpc Pass (Token) returns (Response);
+}
+
+message Token {
+    string token = 1;
+}
+message Response {
+    bool succeded = 1;
+}
