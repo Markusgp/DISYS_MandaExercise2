@@ -1,4 +1,4 @@
-module github.itu.dk/mgrp/DISYS_MandaExercise2
+module github.com/Markusgp/DISYS_MandaExercise2
 
 go 1.17
 
