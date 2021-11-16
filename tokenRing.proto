@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option go_package = "github.itu.dk/mgrp/DISYS_MandaExercise2/DISYS_MandaExercise2";
 
-package ring;
+package tokenRing;
 
 service Ring {
     rpc Pass (Token) returns (Response);
