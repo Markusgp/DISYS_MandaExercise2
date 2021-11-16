@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.itu.dk/mgrp/DISYS_MandaExercise2/DISYS_MandaExercise2";
+option go_package = "github.com/Markusgp/DISYS_MandaExercise2;DISYS_MandaExercise2";
 
 package tokenRing;
 
